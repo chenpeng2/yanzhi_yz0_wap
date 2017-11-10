@@ -1,0 +1,217 @@
+html, body {
+    height: 100%;
+}
+#mainContainer, #mainContainer > div {
+    height: 100%;
+}
+/*筛选的每个模块*/
+.image_block {
+    float: left;
+    margin: 1%;
+    width: 31.2%;
+    height: 6.82rem;
+}
+.image_block .custom_image img {
+    width: 100%;
+}
+.image_block .custom_image div {
+    width: 100%;
+    height: 4.69rem;
+    background-color: #ccc;
+}
+.custom_card {
+    display: flex;
+    margin: 7px 5px;
+    justify-content: space-between;
+}
+/*.custom_card div{flex-grow: 1}*/
+.custom_card div.sex {
+    padding: 2px 5px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #ff4799;
+    text-align: center;
+}
+.custom_card .sex img {
+    width: 10px;
+}
+.custom_card .diomand {
+    text-align: center;
+}
+.custom_card .diomand span {
+    vertical-align: middle;
+}
+.custom_card .diomand img {
+    margin-top: 3px;
+    width: 20px;
+}
+span.icon-girl {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+/*针对amazeui样式*/
+.am-selected {
+    position: absolute;
+    right: 0px;
+    z-index: 99;
+    width: 50px !important;
+}
+.am-dropdown-content {
+    left: -80px !important;
+    width: 120px;
+    border-radius: 5px;
+}
+.am-dropdown-content:before {
+    top: -16px !important;
+    left: 97px !important;
+    border-width: 8px !important;
+    border-bottom-color: #fff !important;
+}
+.am-dropdown-content:after {
+    border: none !important;
+}
+.am-selected-btn {
+    opacity: 0;
+}
+li.am-checked {
+    color: red;
+}
+span.am-icon-check {
+    opacity: 0 !important;
+}
+.ulContainer {
+    position: absolute;
+    top: 42px;
+    right: 12px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.ulContainer:before {
+    position: absolute;
+    top: -8px;
+    left: 82px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+    border-left: 9px solid transparent;
+    content: " "
+}
+.ulContainer ul {
+    margin: 0;
+    padding: 0
+}
+.ulContainer li {
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.ulContainer li span {
+    padding-left: 20px;
+    vertical-align: -webkit-baseline-middle
+}
+.mask {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.am-selected {
+    position: absolute;
+    right: 0px;
+    z-index: 99;
+    width: 50px !important;
+    height: 32px;
+}
+.am-dropdown-content {
+    left: -80px !important;
+    width: 120px;
+    border-radius: 5px;
+}
+.am-dropdown-content:before {
+    top: -16px !important;
+    left: 97px !important;
+    border-width: 8px !important;
+    border-bottom-color: #fff !important;
+}
+.am-dropdown-content:after {
+    border: none !important;
+}
+.am-selected-btn {
+    opacity: 0;
+}
+li.am-checked {
+    color: red;
+}
+span.am-icon-check {
+    opacity: 0 !important;
+}
+.ulContainer {
+    position: absolute;
+    top: 42px;
+    right: 12px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.ulContainer:before {
+    position: absolute;
+    top: -8px;
+    left: 82px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+    border-left: 9px solid transparent;
+    content: " "
+}
+.ulContainer ul {
+    margin: 0;
+    padding: 0
+}
+.ulContainer li {
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.ulContainer li span {
+    padding-left: 20px;
+    vertical-align: -webkit-baseline-middle
+}
+.mask {
+    position: absolute;
+    top: -200px;
+    width: 100%;
+    height: 1080px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.shaixuan {
+    position: relative;
+}
+.shaixuan img {
+    position: absolute;
+    top: 37px;
+    right: 0;
+    right: 8px;
+}
+.shaixuan ul {
+    position: absolute;
+    top: 45px;
+    right: 8px;
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+.shaixuan li {
+    height: 33px;
+    border-bottom: 1px solid #ececf0;
+    font-size: 14px;
+    line-height: 33px;
+}

@@ -1,0 +1,25 @@
+.div_flex {
+    display: flex;
+    padding: 10px;
+    height: 55px;
+    justify-content: space-between;
+    /*    12px;*/
+}
+.sex_type {
+    position: relative;
+    top: 11px;
+    padding-left: 3px;
+    height: 12px;
+    border-left: 3px solid red;
+    line-height: 12px;
+}
+.next_data {
+    padding: 6px 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+/*贡献榜男生标识背景样式*/
+div.sex.boy {
+    background: #00aaee;
+}

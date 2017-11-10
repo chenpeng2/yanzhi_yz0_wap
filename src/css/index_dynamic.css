@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    /*font-size: 13px!important;*/
+}
+#mainContainer, #mainContainer > div {
+    height: 100%;
+}
+.jwicon {
+    width: 42px !important;
+    background-image: url(../images/bofang.svg) !important;
+    background-size: contain !important;
+}
+.jwlogo {
+    display: none;
+}
+.jwdisplayIcon {
+    background-image: none !important;
+}
+.ant-tabs-nav {
+    margin-left: 10% !important;
+    width: 70%;
+}
+.ant-tabs-nav .ant-tabs-tab {
+    width: 33%;
+    text-align: center;
+}
+.icon-shaixuan {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+}
+.custom div.sex {
+    float: left;
+    margin-right: 9px;
+    padding: 0px 3px;
+    width: 35px;
+    border-radius: 5px;
+    background-color: #ff4799;
+    text-align: center;
+}
+.custom div.sex .icon-girl {
+    vertical-align: middle;
+}
+.custom img {
+    float: left;
+    width: 20px;
+    vertical-align: middle;
+}
+.view_count {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.zanzhu {
+    overflow: hidden;
+    width: 10rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#mediaplayer3_display_button, #mediaplayer4_display_button {
+    margin-top: -55px !important;
+}
+.content_model {
+    overflow: hidden;
+}
+.fliter_content p {
+    margin-bottom: 18px;
+    color: #000;
+}
+.identifyfilter {
+    position: absolute;
+    bottom: 0px;
+    margin-left: -16px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+.identifyfilter button {
+    margin-left: 26px;
+    width: 100px;
+    height: 32px;
+    border-radius: 28px;
+    background-color: red;
+    color: #fff;
+}
+.identifyfilter span.icon-guanbi {
+    position: relative;
+    top: 78px;
+    left: -63px;
+    color: #fff;
+    font-size: 26px;
+}
